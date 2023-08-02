@@ -3,4 +3,28 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="color_primary">@color/palette_system_background</color>
+    <color name="color_primary_variant">@color/palette_system_background</color>
+    <color name="color_on_primary">@color/palette_text_primary</color>
+
+    <color name="color_secondary">@color/palette_viridian</color>
+    <color name="color_secondary_variant">@color/palette_viridian</color>
+    <color name="color_on_secondary">@color/palette_light_text_primary_fixed</color>
+
+    <color name="color_background">@color/palette_system_background</color>
+    <color name="color_on_background">@color/palette_text_primary</color>
+
+    <color name="color_surface">@color/palette_system_background</color>
+    <color name="color_on_surface">@color/palette_text_primary</color>
+
+    <color name="color_error">@color/palette_alert_red</color>
+    <color name="color_on_error">@color/palette_text_primary_inverse</color>
+
+    <color name="text_color_primary">@color/palette_text_primary</color>
+    <color name="text_color_primary_inverse">@color/palette_text_primary_inverse</color>
+    <color name="text_color_secondary">@color/palette_text_secondary</color>
+    <color name="text_color_secondary_inverse">@color/palette_text_secondary_inverse</color>
+    <color name="text_color_tertiary">@color/palette_text_tertiary</color>
+    <color name="text_color_tertiary_inverse">@color/palette_text_tertiary_inverse</color>
 </resources>

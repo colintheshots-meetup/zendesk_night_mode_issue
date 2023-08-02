@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Hex colors should be defined EXCLUSIVELY IN THIS FILE. Nowhere else. -->
+    <!-- Palette colors should ONLY BE USED IN colors.xml -->
+    <!-- Color Palette for Dark/Night theme -->
+
+    <!-- text colors -->
+    <!-- =========================== -->
+    <color name="palette_text_primary">#DEFFFFFF</color>
+    <color name="palette_text_secondary">#99FFFFFF</color>
+    <color name="palette_text_tertiary">#66FFFFFF</color>
+
+    <color name="palette_text_color_highlight">#660098AB</color>
+    <color name="palette_text_color_hint">#66FFFFFF</color>
+    <color name="palette_text_color_link">#FF0098AB</color>
+
+    <!-- colors colors -->
+    <!-- =========================== -->
+    <color name="palette_viridian">#FF008294</color>
+    <color name="palette_peach">#FFF65858</color>
+    <color name="palette_indigo">#FF00455D</color>
+    <color name="palette_meetup_red">#FFFF1154</color>
+    <color name="palette_old_gold">#FFD6BE98</color>
+
+    <!-- alerts and warnings -->
+    <!-- =========================== -->
+    <color name="palette_alert_red">#FFC80000</color>
+
+    <!-- system background -->
+    <!-- =========================== -->
+    <color name="palette_system_background">#FF121212</color>
+
+    <color name="palette_light_text_primary_fixed">#FFF6F7F8</color>
+</resources>

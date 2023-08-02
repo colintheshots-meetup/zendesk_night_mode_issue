@@ -1,20 +1,39 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+    <style name="BaseTheme" parent="Theme.MaterialComponents.DayNight">
+    <!-- App Theme 2020 -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryVariant">@color/color_primary_variant</item>
+        <item name="colorOnPrimary">@color/color_on_primary</item>
+
+        <item name="colorSecondary">@color/color_secondary</item>
+        <item name="colorSecondaryVariant">@color/color_secondary_variant</item>
+        <item name="colorOnSecondary">@color/color_on_secondary</item>
+        <item name="colorAccent">@color/color_secondary</item>
+
+        <item name="android:colorBackground">@color/color_background</item>
+        <item name="colorOnBackground">@color/color_on_background</item>
+
+        <item name="colorSurface">@color/color_surface</item>
+        <item name="colorOnSurface">@color/color_on_surface</item>
+
+        <item name="colorError">@color/color_error</item>
+        <item name="colorOnError">@color/color_on_error</item>
+    </style>
+
+    <style name="AppTheme" parent="BaseTheme">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="HelpCenterTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+    <style name="HelpCenterTheme" parent="BaseTheme">
         <item name="colorPrimary">#4285F4</item>
         <item name="colorPrimaryDark">#3376D6</item>
         <item name="colorAccent">#DB4537</item>
     </style>
 
-    <style name="RequestsTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+    <style name="RequestsTheme" parent="BaseTheme">
         <item name="colorPrimary">#44BB44</item>
         <item name="colorPrimaryDark">#448844</item>
         <item name="colorAccent">#DDDD00</item>
